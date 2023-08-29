@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Social Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96cf642091.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+             <img src="logo.png" class="logo">
+             <ul>
+                <li><img src="notification.png" ></li>
+                <li><img src="inbox.png" ></li>
+                <li><img src="video.png" ></li>
+             </ul>
+        </div>
+        <div class="nav-right"> 
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="vvv.png">
+            </div>
+        </div>
+        <!-- settings-menu -->
+        <div class="settings-menu">
+            <div id="dark-battun">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="vvv.png">
+                    <div>
+                        <p>Vijay Kumar </p>
+                      <a href="#"> See your profile</a>   
+                    </div>
+                </div>
+                <hr>
+                    <div class="user-profile">
+                        <img src="feedback.png">
+                        <div>
+                            <p>Give Feedback </p>
+                          <a href="#"> Help us to improve the new design</a>
+                            
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="settings-links">
+                        <img src="setting.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="display.png" class="settings-icon">
+                        <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="logout.png" class="settings-icon">
+                        <a href="#">logout <img src="arrow.png" width="10px"></a>
+                    </div>
+
+                 </div>
+   
+
+        </div>
+
+
+
+    </nav>
+    
+    <div class="container">
+        <!-- left-sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="news.png"> Latest news</a>
+                <a href="#"><img src="friends.png"> Friends</a>
+                <a href="#"><img src="group.png"> Group</a>
+                <a href="#"><img src="marketplace.png"> Marketplace</a>
+                <a href="#"><img src="watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="shortcut-1.png" > Web Developers</a>
+                <a href="#"><img src="shortcut-2.png" > Web Design</a>
+                <a href="#"><img src="shortcut-3.png" > Full Stack Development</a>
+                <a href="#"><img src="shortcut-4.png" > Website Experts</a>
+            </div>
+        </div>
+        <!-- main-content -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story0">
+                    <img src="upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story1">
+                    <img src="member-6.png">
+                    <p>Lenor</p>
+                </div>
+                <div class="story story2">
+                    <img src="member-7.png">
+                    <p>Ankit</p>
+                </div>
+                <div class="story story3">
+                    <img src="Ajeet1.jpeg">
+                    <p>Ajeet</p>
+                </div>
+                <div class="story story4">
+                    <img src="member-7.png">
+                    <p>Aman</p>
+                </div>
+                <!-- Add more stories here -->
+             </div>
+             
+             <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="vvv.png">
+                    <div>
+                        <p>Vijay Kumar </p>
+                        <small>public <i class="fa-solid fa-caret-down"></i> </small>
+                        
+                    </div>
+                </div>
+
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Vijay Kumar?"></textarea>
+                </div>
+                <div class="add-post-link">
+                    <a href="#"><img src="live-video.png">Live Video</a>
+                    <a href="#"><img src="photo.png">Photo/Video</a>
+                    <a href="#"><img src="feeling.png">felings/Activity</a>
+                    
+                    
+                </div>
+             </div>
+
+
+
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="sk1.jpeg">
+                        <div>
+                            <p>Sai Pallavi </p>
+                            <span>August 10 2023,13:40 pm</span>                  
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+
+                </div>
+               
+                <p class="post-taxt">You follow <span> @Sai Pallavi</span> and follow my Insta id,facebook page. <a href="#">#insta id</a> <a href="#">#Facebook page</a></p>
+                <img src="sai1.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like-blue.png">2.7m</div>
+                        <div><img src="comments.png">40k</div>
+                        <div><img src="share.png">2.1m</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="sk1.jpeg"> <i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+             </div>
+
+
+
+
+
+
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="vvv.png">
+                        <div>
+                            <p>Vijay Kumar</p>
+                            <span>August 18 2023,13:40 pm</span>                  
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+
+                </div>
+               
+                <p class="post-taxt">Like and share this image with friends,tag <span> @Vijay Kumar</span> and follow all of you. <a href="#">#insta id</a> <a href="#">#Facebook page</a></p>
+                <img src="feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like-blue.png">4.5m</div>
+                        <div><img src="comments.png">45k</div>
+                        <div><img src="share.png">20k</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="vvv.png"> <i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+             </div>
+
+              
+
+
+             
+
+
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="vvv.png">
+                        <div>
+                            <p>Vijay Kumar</p>
+                            <span>August 10 2023,13:40 pm</span>                  
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+
+                </div>
+               
+                <p class="post-taxt">You follow <span> @Vijay Kumar</span> and follow my Insta id,facebook page. <a href="#">#insta id</a> <a href="#">#Facebook page</a></p>
+                <img src="Vijay8.png.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like-blue.png">5.7m</div>
+                        <div><img src="comments.png">4k</div>
+                        <div><img src="share.png">2.1m</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="vvv.png"> <i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+             </div>
+
+
+
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="Ajeet1.jpeg">
+                        <div>
+                            <p>Ajeet Kumar</p>
+                            <span>August 20 2023,17:40 pm</span>                  
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+
+                </div>
+               
+                <p class="post-taxt">Like and share this image with friends,tag <span> @Ajeet Kumar</span> and follow all of you. <a href="#">#insta id</a> <a href="#">#Facebook page</a></p>
+                <img src="Ajeet.jpeg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like-blue.png">4.5m</div>
+                        <div><img src="comments.png">50k</div>
+                        <div><img src="share.png">40k</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="Ajeet1.jpeg"> <i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+             </div>
+
+
+
+             
+
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="aa2.png">
+                        <div>
+                            <p>Aryan Yadav</p>
+                            <span>August 16 2023,17:03pm</span>                  
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+
+                </div>
+               
+                <p class="post-taxt">Like and share this image with friends,tag <span> @Aryan Yadav</span> and follow all of you. <a href="#">#insta id</a> <a href="#">#Facebook page</a></p>
+                <img src="aaa.jpeg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like-blue.png">3.5m</div>
+                        <div><img src="comments.png">32k</div>
+                        <div><img src="share.png">2.5mk</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="aa2.png"> <i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+             </div>
+
+
+
+
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="rasmi.png">
+                        <div>
+                            <p>Rashmika Mandanna</p>
+                            <span>August 7 2023,17:03pm</span>                  
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i> </a>
+
+                </div>
+               
+                <p class="post-taxt">Like and share this image with friends,tag <span> @Rashmika Mandanna</span> and follow all of you. <a href="#">#insta id</a> <a href="#">#Facebook page</a></p>
+                <img src="rashmika-mandanna-ethnic-outfits.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="like-blue.png">5.5m</div>
+                        <div><img src="comments.png">52k</div>
+                        <div><img src="share.png">5.5m</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="rasmi.png"> <i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+             </div>
+
+
+            <button type="button" class="load-more-button">load more</button>
+
+
+        </div>
+        <!-- right-sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>           
+           </div>
+
+           <div class="event">
+           <div class="left-event">
+            <h3>18</h3>
+            <span>August</span>
+           </div> 
+           <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+            <a href="#">More Info</a>
+           </div> 
+           </div>
+           <div class="event">
+            <div class="left-event">
+             <h3>10</h3>
+             <span>June</span>
+            </div> 
+            <div class="right-event">
+             <h4>Social Media</h4>
+             <p><i class="fa-solid fa-location-dot"></i>Willson Tech Park</p>
+             <a href="#">More Info</a>
+            </div> 
+            </div>
+            
+            
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>           
+           </div>
+           <img src="advertisement.png" class="sidebar-ads">
+
+           <div class="sidebar-title">
+            <h4>Conversation</h4>
+            <a href="#">Hide Chat</a>           
+       </div>
+
+       <div class="online-list">
+        <div class="online">
+            <img src="1.jpeg">
+        </div>
+        <p>Shivani</p>
+       </div>
+
+       <div class="online-list">
+        <div class="online">
+            <img src="Ankit.jpeg">
+        </div>
+        <p>Ankit</p>
+       </div>
+
+       <div class="online-list">
+        <div class="online">
+            <img src="member-1.png">
+        </div>
+        <p>Alison</p>
+       </div>
+     </div>
+
+     </div>
+
+    <div class="footer">
+        <p>Copyright 2023 - Easy Vk ON short YouTube Channel</p>
+    </div>
+<Script src="script.js"></Script>
+ 
+
+</body>
+</html>
